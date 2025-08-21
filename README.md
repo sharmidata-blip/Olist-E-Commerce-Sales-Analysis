@@ -1,9 +1,9 @@
 # Olist-E-Commerce-Sales-Analysis
-E-commerce sales analysis using Olist dataset | SQL + Power BI | Interactive dashboard
+E-commerce sales analysis using Olist dataset |  Power BI | Interactive dashboard
 📊 Olist E-Commerce Sales Analysis
 🔍 Project Overview
 
-This project analyzes the Brazilian Olist E-Commerce dataset, which contains order, product, customer, and seller data. The goal is to uncover insights into sales performance, customer behavior, and product demand using SQL & Power BI.
+This project analyzes the Brazilian Olist E-Commerce dataset, which contains order, product, customer, and seller data. The goal is to uncover insights into sales performance, customer behavior, and product demand using  & Power BI.
 
 📂 Dataset
 
