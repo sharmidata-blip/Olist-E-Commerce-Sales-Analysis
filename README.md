@@ -1,34 +1,36 @@
-# Olist-E-Commerce-Sales-Analysis
-E-commerce sales analysis using Olist dataset |  Power BI | Interactive dashboard
 📊 Olist E-Commerce Sales Analysis
 🔍 Project Overview
 
-This project analyzes the Brazilian Olist E-Commerce dataset, which contains order, product, customer, and seller data. The goal is to uncover insights into sales performance, customer behavior, and product demand using  & Power BI.
+This project analyzes the Olist Brazilian E-Commerce dataset to uncover insights into orders, products, customers, and sellers. The goal is to understand sales trends, top-selling products, customer distribution, and payment methods using Power BI visualizations.
 
 📂 Dataset
 
-The dataset was taken from the Olist Brazilian E-Commerce public dataset.
-It includes:
+The repo includes the main CSV files required for analysis:
 
-Customers data
+olist_orders_dataset.csv
 
-Orders data
+olist_order_items_dataset.csv
 
-Payments data
+olist_customers_dataset.csv
 
-Products data
+olist_products_dataset.csv
 
-Sellers data
+olist_sellers_dataset.csv
 
-Reviews data
+olist_order_payments_dataset.csv
+
+olist_order_reviews_dataset.csv
+
+product_category_name_translation.csv
+
+Note: The geolocation dataset is not included due to size. Full dataset available here
+ (optional link if needed).
 
 ⚙️ Tools Used
 
-SQL (MySQL) → Data analysis & cleaning
+Excel / CSV handling → Data cleaning & pre-processing
 
-Power BI → Dashboard & visualization
-
-Excel → Data pre-processing
+Power BI → Interactive dashboards & visualization
 
 📑 Key Analysis
 
@@ -36,24 +38,36 @@ Order status distribution
 
 Sales trend over time
 
-Top & bottom selling products
+Top & bottom-selling products
 
 Customer distribution by city and state
 
-Payment type analysis
+Payment type and review score analysis
 
-Review score analysis
+📸 Dashboard Screenshots
 
-📊 Dashboard Insights
+(Screenshots shared in dashboard/screenshots/ folder)
 
-The interactive Power BI dashboard provides:
+Overview of total sales & KPIs
 
-KPIs: Total Sales, Orders, Customers
+Sales trend charts
 
-Sales performance trends
+Top products & category insights
 
-Geographic distribution of customers
+📂 Project Structure
+Olist-Ecommerce-Analysis/
+│── datasets/           # Key CSV files for analysis
+│── dashboard/          # PDF export & screenshots
+│── README.md           # Project documentation
 
-Product & category level insights
+🚀 How to Use
 
-Customer satisfaction analysis (reviews)
+Clone this repository
+
+Explore the dashboard via PDF or screenshots
+
+Use the CSV files for further analysis if required
+
+📌 Conclusion
+
+This project highlights how Power BI dashboards and CSV-based analysis can provide actionable insights into e-commerce sales performance.
